@@ -62,7 +62,7 @@ if ($text === '/start') {
         'reply_markup' => json_encode([
             'inline_keyboard' => [
                 [
-                    ['text' => 'Play Dolphin Now', 'web_app' => ['url' => 'https://app.companybro.com']],
+                    ['text' => 'Play Dolphin Now', 'web_app' => ['url' => 'https://dolphin-five.vercel.app/']],
                     ['text' => 'Join Our Community', 'url' => 'https://t.me/companybrodigital']]
             ]
         ])
